@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Locker - Student LMS & Social Hub</title>
+    <!-- Tailwind CSS CDN for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans min-h-screen flex flex-col justify-between">
+
+    <!-- Header / Navbar -->
+    <header class="bg-slate-800 border-b border-slate-700 py-4 px-6 flex justify-between items-center shadow-md">
+        <div class="flex items-center space-x-3">
+            <span class="text-2xl font-black bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">🎒 My Locker</span>
+            <span class="text-xs bg-indigo-500/20 text-indigo-300 px-2 py-1 rounded-full border border-indigo-500/30">Student Platform</span>
+        </div>
+        <div class="space-x-4">
+            <a href="#features" class="text-slate-300 hover:text-white transition">Features</a>
+            <a href="/login.html" class="bg-slate-700 hover:bg-slate-600 px-4 py-2 rounded-lg text-sm font-semibold transition">Login</a>
+            <a href="/register.html" class="bg-indigo-600 hover:bg-indigo-500 px-4 py-2 rounded-lg text-sm font-semibold transition shadow-lg shadow-indigo-500/20">Get Started</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="max-w-6xl mx-auto px-6 py-16 text-center">
+        <div class="inline-block mb-4 px-4 py-1.5 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-300 text-xs font-medium uppercase tracking-wider">
+            Your Digital Campus & Social Vault
+        </div>
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
+            Manage School Work, Store Files, & <span class="bg-gradient-to-r from-indigo-400 to-cyan-400 bg-clip-text text-transparent">Connect with Friends</span>
+        </h1>
+        <p class="text-lg md:text-xl text-slate-400 max-w-2xl mx-auto mb-10">
+            A professional, free platform integrating LMS features, file locker storage, task tracking, and community music playback while you study.
+        </p>
+        <div class="flex justify-center space-x-4">
+            <a href="/register.html" class="bg-indigo-600 hover:bg-indigo-500 text-white font-bold px-8 py-3.5 rounded-xl transition shadow-lg shadow-indigo-600/30">Create Free Locker</a>
+            <a href="#features" class="bg-slate-800 hover:bg-slate-700 text-slate-300 font-semibold px-8 py-3.5 rounded-xl transition border border-slate-700">Explore Features</a>
+        </div>
+
+        <!-- Features Grid -->
+        <div id="features" class="grid grid-md md:grid-cols-3 gap-8 mt-24 text-left">
+            <div class="bg-slate-800/50 border border-slate-700/60 p-6 rounded-2xl">
+                <div class="text-indigo-400 text-3xl mb-4">📁</div>
+                <h3 class="text-xl font-bold mb-2">Secure File Locker</h3>
+                <p class="text-slate-400 text-sm">Store, organize, and manage your school documents, assignments, photos, and videos with full CRUD functionality.</p>
+            </div>
+            <div class="bg-slate-800/50 border border-slate-700/60 p-6 rounded-2xl">
+                <div class="text-cyan-400 text-3xl mb-4">👥</div>
+                <h3 class="text-xl font-bold mb-2">Social Feed & Friends</h3>
+                <p class="text-slate-400 text-sm">Follow classmates, collaborate on group projects, share files instantly, and interact in a student community.</p>
+            </div>
+            <div class="bg-slate-800/50 border border-slate-700/60 p-6 rounded-2xl">
+                <div class="text-purple-400 text-3xl mb-4">🎵</div>
+                <h3 class="text-xl font-bold mb-2">Embedded Music & Planner</h3>
+                <p class="text-slate-400 text-sm">Listen to background study beats connected via embedded players while tracking your project due dates on the calendar.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-slate-800/80 border-t border-slate-700/60 py-6 text-center text-slate-500 text-sm">
+        <p>&copy; 2026 My Locker Platform. Midterm Task Performance System.</p>
+    </footer>
+
+</body>
+</html>
