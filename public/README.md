@@ -1,4 +1,4 @@
-# 🎒 My Locker - Secure Student Productivity Platform
+# My Locker - Secure Student Productivity Platform
 
 ## Business Name and Description
 * **Business Name:** My Locker Inc.
