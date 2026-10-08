@@ -1,4 +1,4 @@
-My Locker - Secure Student Productivity Platform
+# 🎒 My Locker - Secure Student Productivity Platform
 
 ## Business Name and Description
 * **Business Name:** My Locker Inc.
@@ -14,8 +14,7 @@ Students frequently juggle multiple scattered tools for school work—cloud stor
 * **Quick Notes:** Persistent sticky notes widget for rapid reminders.
 * **Interactive Calendar & Event Reminders:** Clickable date modal allowing users to add and manage exam due dates and academic events with visual indicator badges.
 * **Study Radio:** Integrated lofi music streaming player for focused study sessions.
-* **Social & Collaboration:** 
-  * User search by name or email.
+* **Social & Collaboration:** * User search by name or email.
   * Friend requests with real-time notification badges.
   * Peer-to-peer file sharing permissions.
   * Direct chat and file request messaging system between connected friends.
